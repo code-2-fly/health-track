@@ -1,5 +1,9 @@
 package br.com.fiap.model;
 
+/**
+ * Class of exercises
+ * @version 1.0
+ */
 public class Exercise {
 
   private int exerciseID;
@@ -31,49 +35,78 @@ public class Exercise {
   }
 
   /**
-  * @param exerciseID Set an exerciseId for exercise Object
-  * @return void
+  * @param exerciseID the new exerciseId to exercise Object
   */
   public void setExerciseID(int exerciseID) {
     this.exerciseID = exerciseID;
   }
 
+  /**
+   * @return the name of the exercise
+   */
   public String getName() {
     return name;
   }
 
+  /**
+   * @param name the new name to exercise Object
+   */
   public void setName(String name) {
     this.name = name;
   }
 
+  /**
+   * @return the repetitions of the exercise
+   */
   public short getRepetitions() {
     return repetitions;
   }
 
+  /**
+   * @param repetitions the new number of repetitions to exercise Object
+   */
   public void setRepetitions(short repetitions) {
     this.repetitions = repetitions;
   }
 
+  /**
+   * @return the series of the exercise
+   */
   public short getSeries() {
     return series;
   }
 
+  /**
+   * @param series the new number of series to exercise Object
+   */
   public void setSeries(short series) {
     this.series = series;
   }
 
+  /**
+   * @return the series of the exercise
+   */
   public float getCalories() {
     return calories;
   }
 
+  /**
+   * @param calories the new calorie to exercise Object
+   */
   public void setCalories(float calories) {
     this.calories = calories;
   }
 
+  /**
+   * @return the description of the exercise
+   */
   public String getDescription() {
     return description;
   }
 
+  /**
+   * @param description the new description to exercise Object
+   */
   public void setDescription(String description) {
     this.description = description;
   }
