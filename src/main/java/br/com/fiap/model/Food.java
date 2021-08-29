@@ -2,13 +2,34 @@ package br.com.fiap.model;
 
 import java.util.Date;
 
+/**
+ * Class of foods
+ * @version 1.0
+ */
 public class Food {
 
+  /**
+   * food identification */
   private int foodID;
+
+  /**
+   * food name */
   private String name;
+
+  /**
+   * consumption date */
   private Date date;
+
+  /**
+   * food type */
   private String type;
+
+  /**
+   * amount of kcal */
   private float kcal;
+
+  /**
+   * food description */
   private String description;
 
   public Food () {

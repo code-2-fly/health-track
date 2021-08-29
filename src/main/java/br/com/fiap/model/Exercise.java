@@ -6,16 +6,28 @@ package br.com.fiap.model;
  */
 public class Exercise {
 
+  /**
+   * exercise identification */
   private int exerciseID;
 
+  /**
+   * exercise name */
   private String name;
 
+  /**
+   * exercise repetitions */
   private short repetitions;
 
+  /**
+   * exercise series */
   private short series;
 
+  /**
+   * amount of calories */
   private float calories;
 
+  /**
+   * exercise description */
   private String description;
 
   public Exercise() {

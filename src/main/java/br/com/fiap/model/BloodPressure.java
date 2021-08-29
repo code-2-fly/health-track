@@ -1,11 +1,21 @@
 package br.com.fiap.model;
 
+/**
+ * Class of blood pressures
+ * @version 1.0
+ */
 public class BloodPressure {
 
+  /**
+   * blood pressure identification */
   private int bloodPressureID;
 
+  /**
+   * systolic number */
   private short systolic;
 
+  /**
+   * diastolic number */
   private short diastolic;
 
   public BloodPressure() {

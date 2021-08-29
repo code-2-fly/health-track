@@ -2,12 +2,22 @@ package br.com.fiap.model;
 
 import java.util.Date;
 
+/**
+ * Class of weights
+ * @version 1.0
+ */
 public class Weight {
 
+  /**
+   * weight identification */
   private int weightID;
 
+  /**
+   * weighing date */
   private Date date;
 
+  /**
+   * weight number */
   private float weight;
 
   public Weight() {
